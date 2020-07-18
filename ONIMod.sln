@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishDeliveryPointFix", "Fis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PauseOnReadyToPrint", "PauseOnReadyToPrint\PauseOnReadyToPrint.csproj", "{A331E411-1482-44D6-96D9-887AD40A0553}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MkachatkaFire", "MkachatkaFire\MkachatkaFire.csproj", "{5CF7046C-C71E-4409-B2D7-62E18F71D4D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A331E411-1482-44D6-96D9-887AD40A0553}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A331E411-1482-44D6-96D9-887AD40A0553}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A331E411-1482-44D6-96D9-887AD40A0553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF7046C-C71E-4409-B2D7-62E18F71D4D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF7046C-C71E-4409-B2D7-62E18F71D4D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF7046C-C71E-4409-B2D7-62E18F71D4D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF7046C-C71E-4409-B2D7-62E18F71D4D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
