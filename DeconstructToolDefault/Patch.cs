@@ -1,4 +1,5 @@
-﻿using Harmony;
+﻿using HarmonyLib;
+
 using System;
 using System.Collections.Generic;
 
@@ -6,7 +7,7 @@ namespace DeconstructOnlyBuilding
 {
     [HarmonyPatch(typeof(FilteredDragTool))]
     [HarmonyPatch("GetDefaultFilters")]
-    internal class Patch
+    public class Patch
     {
         [HarmonyPostfix]
         private static void SetFilterToBuilding(FilteredDragTool __instance, Dictionary<string, ToolParameterMenu.ToggleState> filters)
