@@ -1,15 +1,10 @@
-﻿using Harmony;
-using STRINGS;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using HarmonyLib;
 
 namespace MkachatkaFire
 {
     [HarmonyPatch(typeof(Geyser))]
     [HarmonyPatch("OnSpawn")]
-    public class Patches
+    public class Patch
     {
         private static readonly EventSystem.IntraObjectHandler<Geyser> OnRefreshUserMenuDelegate =
             new EventSystem.IntraObjectHandler<Geyser>(delegate(Geyser component, object data)
