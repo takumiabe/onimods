@@ -11,8 +11,11 @@ namespace PauseOnReadyToPrint
             // Telepadの状態がopenに遷移したときに、ゲームを一時停止する
             __instance.open.Enter("trap", delegate (Telepad.StatesInstance smi)
             {
-                // 音は鳴らす (true)
-                SpeedControlScreen.Instance.Pause(true);
+                if(SpeedControlScreen.Instance != null)
+                {
+                    // 音は鳴らす (true)。クラッシュではない？ので第2引数はfalseで問題ないと思う
+                    SpeedControlScreen.Instance.Pause(true, false);
+                }
             }
             );
         }
